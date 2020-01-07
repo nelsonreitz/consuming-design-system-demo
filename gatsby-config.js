@@ -5,5 +5,24 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    menuLinks: [
+      {
+        name:'Gallery',
+        link:'/gallery'
+      },
+      {
+        name:'Blog',
+        link:'/blog'
+      },
+      {
+        name:'About',
+        link:'/about'
+      },
+      {
+        name:'Contact',
+        link:'/about'
+      },
+    ],
+  },
 }
